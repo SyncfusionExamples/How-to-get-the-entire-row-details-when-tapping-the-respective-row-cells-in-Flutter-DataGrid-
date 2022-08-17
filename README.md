@@ -1,0 +1,1 @@
+# How-to-get-the-entire-row-details-when-tapping-the-respective-row-cells-in-Flutter-DataGrid-
