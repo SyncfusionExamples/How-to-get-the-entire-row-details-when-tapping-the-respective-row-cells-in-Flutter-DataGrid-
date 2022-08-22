@@ -44,7 +44,7 @@ class EmployeeDataSource extends DataGridSource {
 ```
 
 ## STEP 2:
-Initialize the [SfDataGrid](https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/SfDataGrid-class.html) widget with all the required properties. When you tap the row, you get the row index in the [onCellTap](https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/SfDataGrid/onCellTap.html) callback. Then, you can fetch the respective row data from the [DataGridSource.effectiveRows](https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/DataGridSource/effectiveRows.html). Here, the respective row details will be shown in the AlertDialog with a `onCellTap`.
+Initialize the [SfDataGrid](https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/SfDataGrid-class.html) widget with all the required properties. When you tap the row, you will get the row index in the [onCellTap](https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/SfDataGrid/onCellTap.html) callback. Then, you can fetch the respective row data from the [DataGridSource.effectiveRows](https://pub.dev/documentation/syncfusion_flutter_datagrid/latest/datagrid/DataGridSource/effectiveRows.html). Here, the respective row details will be shown in the AlertDialog with a `onCellTap`.
 
 ```dart
 List<Employee> _employees = <Employee>[];
